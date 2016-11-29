@@ -10,7 +10,7 @@ module: {
             test: /\.jsx?$/,
             loader: 'babel-loader',
             query: {
-                presets: ['es2015']
+                presets: ['es2015', 'react']
             },
             exclude: /node_modules/
         }

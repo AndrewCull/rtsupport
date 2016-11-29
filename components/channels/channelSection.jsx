@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ChannelFrom from './channelForm.jsx';
+import ChannelForm from './channelForm.jsx';
 import ChannelList from './channelList.jsx';
 
 class ChannelSection extends Component{
@@ -14,9 +14,9 @@ class ChannelSection extends Component{
 }
 
 ChannelSection.propTypes = {
-    channels = React.PropTypes.array.isRequired,
-    setChannel = React.PropTypes.func.isRequired,
-    addChannel = React.PropTypes.func.isRequired
+    channels : React.PropTypes.array.isRequired,
+    setChannel : React.PropTypes.func.isRequired,
+    addChannel : React.PropTypes.func.isRequired
 }
 
 export default ChannelSection
